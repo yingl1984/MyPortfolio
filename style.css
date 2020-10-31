@@ -1,0 +1,128 @@
+/* define the global box */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  /* background-image:url(image/background.jpg); */
+  background:#edf2f4;
+ }
+
+/* head css */
+.header div{
+  background:rgba(250, 250, 210, 0.829);
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  background: #fff1e6;
+}
+  
+.round{
+  border: 2px solid white;
+  width: 230px;
+  border-radius : 50%;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: center;
+  background: rgb(229,152,155);
+  background: linear-gradient(90deg, rgba(229,152,155,1) 0%, rgba(229,107,111,1) 60%, rgba(110,77,77,1) 100%);
+}
+
+.item{
+  flex:1;
+  padding-top :10px;
+  padding-left:90px;
+  width: 25%;
+}
+.item-triple{
+  flex:3;
+}
+.item-mini{
+  flex:0.3;
+}
+ header div div h1{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#fff1e6;
+  text-shadow: #474747 3px 5px 2px;
+  padding-top:10px;
+  font-size:50px;
+ }
+ header div div h2{
+  color:#fff1e6;
+  font-variant: small-caps;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 26px;
+  font-weight:normal;
+  margin-top:0px;
+ }
+
+/* main css */
+h3{
+  text-align:center;
+  font-family: cursive,Arial, sans-serif;
+  font-size:35px;
+  /* color:#774936; */
+  color:#495057;
+}
+
+main div section p,ul,
+footer div p, ol{
+  font-family: monospace,Arial, sans-serif;
+  font-size: 20px;
+  color:#495057;
+}
+.indent{
+  padding-left: 60px;
+}
+main,footer div {
+  /* background:yellow; */
+  width: 800px;
+  margin: auto;
+  margin-top:150px;
+}
+
+.row{
+  margin-top: 80px;
+}
+main div section header h2, footer h2{
+  text-align: center;
+}
+hr{
+  padding-bottom: 0px;
+  margin: 100px auto; 
+  margin-top: 40px;
+  width: 80%;
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(224, 148, 24, 0.849), rgba(68, 43, 43, 0.75), rgba(230, 177, 21, 0.849)); 
+}
+
+/* footer css */
+footer div ol{
+  margin-bottom: 20px;
+}
+
+a:link    { color: #bc6c25 }
+a:visited { color: hsl(120, 100%, 5%); }
+a:hover   { color: hsl(120, 100%, 35%); }
+a:active  { color: hsl(157, 72%, 33%); }
+
+footer div img{
+  width:100%;
+  border: 1px #b4b4b4 solid;
+  padding-left:0px;
+}
+ 
+
+  
+  
